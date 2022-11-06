@@ -103,6 +103,33 @@ The pid_t data type represents process IDs. You can get the process ID of a proc
 ```
 Creating local variable pid which stores the process id of each processes
 
+###  **3. Function *fork()***:
+Fork system call is used for creating a new process, which is called child process, which runs concurrently with the process that makes the fork() call (parent process). 
+It takes no parameters and returns an integer value.  
+Different return types of fork() are
+1)	Positive value- returned to parent, and the value is the  process id of the newly created child process.
+2)	Zero- return to the child process.
+3)	Negative – child process creation was not successful  
+  
+Lets see what happens when 2 fork() calls are called to get a better understanding  
+<pre>
+fork ();   // Line 1
+fork ();   // Line 2
+
+       P1       // There will be 1 child process 
+    /     \     // created by line 1.
+  P1      P2    // There will be 2 child processes
+ /  \    /  \   //  created by line 2
+P1  P3  P2  P4  // There will be 4 child processes 
+</pre>
+###  **4. Function *wait()***:
+A call to wait() blocks the calling process until one of its child processes exits or a signal is received. After child process terminates, parent continues its execution after wait system call instruction.  
+
+## References:
+* https://www.geeksforgeeks.org/fork-system-call/
+* https://www.geeksforgeeks.org/wait-system-call-c/
+* https://www.includehelp.com/c/process-identification-pid_t-data-type.aspx
+
 
 
 
