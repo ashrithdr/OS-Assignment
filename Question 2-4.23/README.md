@@ -9,7 +9,7 @@ the number entered by the user.
 
 The Program will report the output as follows:
 
-![Project Image](final_program_run.png)
+![Project Image]([final_program_run.png](https://github.com/ashrithdr/OS-Assignment/blob/main/Question%202-4.23/output%20images/final_program_run.png))
 
 ## Approach
 
