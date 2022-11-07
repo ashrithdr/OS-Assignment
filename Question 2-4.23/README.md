@@ -13,7 +13,7 @@ The Program will report the output as follows:
 
 ## Approach
 
-### The C Program: ![threads.c](Problem4_23.c)
+### The C Program: ![threads.c](https://github.com/ashrithdr/OS-Assignment/blob/main/Question%202-4.23/Problem4_23.c)
 Taking the input from user via local variable n and asking the user to enter the number.
 
 ```
@@ -35,7 +35,7 @@ pthread_t is a data type for thread th1
 ```
         int pthread_create(pthread_t *__restrict__thread,const pthread_attr_t *__restrict__attr, void *(*start_routine)(void *), void *restrict arg);
 ```
-For Line 21 in ![threads.c](Problem4_23.c) 
+For Line 21 in ![threads.c](https://github.com/ashrithdr/OS-Assignment/blob/main/Question%202-4.23/Problem4_23.c) 
 ```
         pthread_create(&th1,NULL,thread1,&n);
 ```
@@ -57,7 +57,7 @@ thread to terminate.  If that thread has already terminated, then
 pthread_join() returns immediately.  The thread specified by
 thread must be joinable.
 
-For Line 24 in ![threads.c](Problem4_23.c)
+For Line 24 in ![threads.c](https://github.com/ashrithdr/OS-Assignment/blob/main/Question%202-4.23/Problem4_23.c)
 ```
         pthread_join(th1,NULL);
 ```
