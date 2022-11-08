@@ -1,10 +1,9 @@
 # CS 252 Operating Systems 
+
 ### Assignment Project
 
-## Question 1: Chapter 3.21
-
-
-## Question 2: Chapter 4.23
+## -[Question 1: Chapter 3.21](#Question 1-3.21)
+## -[Question 2: Chapter 4.23](#Question 2-4.23)
 
 ### Submitted by:
 
