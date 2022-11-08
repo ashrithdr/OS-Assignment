@@ -22,7 +22,7 @@ integer is passed on the command line
 
 The program will report as follows:
 
-![Project Image](final_program_run.png)
+![Project Image](https://github.com/ashrithdr/OS-Assignment/blob/main/Question%201-3.21/output%20images/final_program_run.png)
 ## Getting Started
 Need to have a Linux based OS.
 ### Install Components
@@ -38,7 +38,7 @@ gcc Problem3_21.c -o Problem3_21.exe
 ./Problem3_21.exe
 ```
 ## Approach
-### The C Program: ![process.c](Problem3_21.c)
+### The C Program: [process.c](Problem3_21.c)
 
 ###  **1. User defined function *int Collatz (int num)***
 We define the function *int Collatz(int num)* as follows:
